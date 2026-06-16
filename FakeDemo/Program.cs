@@ -1,5 +1,7 @@
-using FakeApp.API;
+using System;
+using System.Net.Http;
 using System.Net.Http.Json;
+using FakeApp.API;
 
 Console.WriteLine("Enter your name:");
 string name = Console.ReadLine();
