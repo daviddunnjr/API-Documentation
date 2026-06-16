@@ -1,13 +1,22 @@
 namespace FakeApp.API
 {
-    public class Message
+    /// <summary>
+    /// Represents a message with content and metadata.
+    /// </summary>
+    /// <remarks>
+    /// Initializes a new instance of the Message class with the specified content and metadata.
+    /// </remarks>
+    /// <param name="content"></param>
+    /// <param name="metadata"></param>
+    public class Message(string content, Metadata metadata)
     {
-        public Message(string content, Metadata metadata)
-        {
-            this.content = content;
-            this.metadata = metadata;
-        }
-        public string content { get; set; }
-        public Metadata metadata { get; set; }
+        /// <summary>
+        /// Gets or sets the content of the message.
+        /// </summary>
+        public string Content { get; set; } = content;
+        /// <summary>
+        /// Gets or sets the metadata associated with the message.
+        /// </summary>
+        public Metadata Metadata { get; set; } = metadata;
     }
 }

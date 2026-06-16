@@ -60,8 +60,8 @@ public class Metadata
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| authorName | [string](https://learn.microsoft.com/en-us/dotnet/api/system.string) | Provides the name of the author of the data. Defaults to `"Unknown User"`. Optional. |
-| creationTime | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime) | Provides the time data inizialized. Defaults to the current time. Optional.
+| AuthorName | [string](https://learn.microsoft.com/en-us/dotnet/api/system.string) | Provides the name of the author of the data. Defaults to `"Unknown User"`. Optional. |
+| CreationTime | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime) | Provides the time data inizialized. Defaults to the current time. Optional.
 
 ## Glossary
 

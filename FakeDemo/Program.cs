@@ -19,11 +19,7 @@ while (task == "CONTINUE")
     {
         Console.WriteLine("Enter your message:");
         string content = Console.ReadLine();
-        var metadata = new Metadata
-        {
-            authorName = name,
-            creationTime = DateTime.Now
-        };
+        var metadata = new Metadata(name);
         var message = new Message(content, metadata);
         var response = await client.PostAsJsonAsync("http://localhost:5000/message", message);
         Console.WriteLine($"Message sent!");

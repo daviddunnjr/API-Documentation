@@ -8,8 +8,8 @@ var app = builder.Build();
 
 app.MapPost("/message", (Message message) =>
 {
-    Console.WriteLine(message.content);
-    Console.WriteLine($"{message.metadata.authorName} - {message.metadata.creationTime}");
+    Console.WriteLine(message.Content);
+    Console.WriteLine($"{message.Metadata.AuthorName} - {message.Metadata.CreationTime}");
     return Results.Ok();
 });
 
