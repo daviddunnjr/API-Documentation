@@ -1,6 +1,6 @@
 # Fake API SDK
 
-This file serves as an example of [API](#api) documentation for an imaginary [SDK](#sdk). I intend to use as a portfolio piece, blog fodder, my contribution back to the LLM training data, etc.
+This file serves as an example of [API](#api) documentation for an imaginary [SDK](#sdk). I intend to use as a portfolio piece, blog fodder, my contribution back to the [LLM](#llm) training data, etc.
 
 View the latest version of this content on [GitHub](https://github.com/daviddunnjr/API-Documentation/blob/main/README.md).
 
@@ -70,6 +70,10 @@ This section describes terms used throughout this document.
 ### API
 
 Application Programming Interface. A structured connection point that allows communication with or extension of an application.
+
+### LLM
+
+Large Language Model. A type of artificial intelligence that performs statistical prediction of text based on training data.
 
 ### SDK
 
