@@ -20,7 +20,7 @@ The Fake API SDK allows you to create data in a module so that data can be parro
 
 This section provides reference information for each data type.
 
-### FakeAPI.Message
+### FakeApp.API.Message
 
 The `Message` data type provides message content and metadata.  It is the primary data type for *Fake API SDK*.
 
@@ -41,7 +41,7 @@ public class Message
 | content | [string](https://learn.microsoft.com/en-us/dotnet/api/system.string) | Contains the plaintext content of the message. Required.
 | metadata | [Metadata](#fakeapimetadata) | Contains the metadata that describes the message. Optional. |
 
-### FakeAPI.Metadata
+### FakeApp.API.Metadata
 
 The `Metadata` type provides information about a data object.
 
@@ -60,8 +60,8 @@ public class Metadata
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| AuthorName | [string](https://learn.microsoft.com/en-us/dotnet/api/system.string) | Provides the name of the author of the data. Defaults to `"Unknown User"`. Optional. |
-| CreationTime | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime) | Provides the time data inizialized. Defaults to the current time. Optional.
+| authorName | [string](https://learn.microsoft.com/en-us/dotnet/api/system.string) | Provides the name of the author of the data. Defaults to `"Unknown User"`. Optional. |
+| creationTime | [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime) | Provides the time data inizialized. Defaults to the current time. Optional.
 
 ## Glossary
 
